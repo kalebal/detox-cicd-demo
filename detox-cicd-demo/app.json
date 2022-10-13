@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "detox-cicd-demo",
+    "slug": "detox-cicd-demo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "detox-cicd-demo"
+}

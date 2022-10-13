@@ -1,0 +1,24 @@
+{
+  "devices": {
+    "simulator": {
+      "type": "ios.simulator",
+      "device": {
+        "type": "iPhone 12 Pro Max"
+      }
+    }
+  },
+  "apps": {
+    "ios.release": {
+      "name": "detox-cicd-demo",
+      "type": "ios.app",
+      "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/detox-cicd-demo.app",
+      "build": "xcodebuild -project ios/detox-cicd-demo.xcodeproj -scheme detox-cicd-demo -sdk iphonesimulator -derivedDataPath ios/build"
+    }
+  },
+  "configurations": {
+    "ios.sim.release": {
+      "device": "simulator",
+      "app": "ios.release"
+    }
+  }
+}

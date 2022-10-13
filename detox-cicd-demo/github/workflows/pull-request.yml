@@ -1,0 +1,8 @@
+name: PR Review
+on:
+  pull_request:
+    branches: [master]
+jobs:
+  detox-build:
+  runs-on: macos-latest
+  timeout-minutes: 20
